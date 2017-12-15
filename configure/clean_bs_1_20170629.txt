@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "msg": "",
+    "data": {
+        "version": "201711081530",
+        "autoClean": {
+            "function_open": true,
+            "force_open": false,
+            "enforce_number": 14,
+            "boost_timeinterval": 120000,
+            "boost_daily_limit": 20,
+            "default_memory_threshold": 20,
+            "display_time": 30000,
+            "dismiss_strategy": 0,
+            "btn_close_strategy": 2,
+            "area_close_strategy": 1,
+            "user_auto_enforce_enable": 1,
+            "auto_enforce": 1,
+            "unlock_ad_first_show_interval": 50000000,
+            "first_enforce_on_time": 7200000,
+            "enforce_on_time": 604800000,
+            "preload_ad_on_screen_off": 0,
+            "preload_ad_on_screen_on": 0,
+            "preload_ad_on_poll_interval": 30000,
+            "preload_ad_on_poll": 0,
+            "allow_display_without_ad_cached": 1,
+            "ad_load_time": 2000,          
+            "app_icon_show": true,
+            "boost_title_visible": true,
+            "clean_result_strategy_interval": 600000,
+            "clean_result_threshold_out_interval": 10,
+            "clean_result_min_out_interval": 8,
+            "clean_result_max_out_interval": 15,
+            "clean_result_threshold_in_interval": 5,
+            "clean_result_min_in_interval": 1,
+            "clean_result_max_in_interval": 5,
+            "clean_background_url": "",
+            "clean_top_animation_on": 1,
+            "clean_shortcut_auto_create_interval": 259200000,
+            "create_clean_shortcut_on_install": 1,
+            "clean_shortcut_icon_update_interval": 3600,
+            "clean_shortcut_icon_urls": [],
+            "clean_shortcut_background_url": "",
+            "clean_shortcut_top_animation_on": 1,
+            "show_model": 2
+        },
+        "priority_list": [
+            "bubble.security.clean.antivirus.master.free"         
+        ]
+    }
+}

@@ -1,6 +1,6 @@
 {
-  "version": "201712121230",
-  "version_desc": "20171104nomal3",
+  "version": "201712121630",
+  "version_desc": "description",
   "open_status": true,
   "refresh_frequence": 360000,
   "refresh_time_limite": 300000,
@@ -14,14 +14,14 @@
   "SDK_Config": {
     "facebook_status": true,
     "admob_status": true,
-    "facebook_lifetime": 1800000
+    "facebook_lifetime": 3600000
   },
   "InterAd_Config": {
     "enable": true,
-    "interval_time": 1800000,
-    "max_show_time": 10,
+    "interval_time": 3600000,
+    "max_show_time": 5,
     "inter_flow": [
-      {
+{
         "inter_platform": "admob",
         "inter_wight": 100,
         "inter_slotId": "ca-app-pub-9050577983994584/2210047445",
@@ -65,7 +65,7 @@
     },
     {
       "slot_id": "00002",
-      "slot_name": "bubble_exit_ad",
+      "slot_name": "bubble_gift_ad",
       "open_status": true,
       "is_auload": false,
       "show_priority": 1,
@@ -91,7 +91,7 @@
             "ad_clcik_enable": 3,
             "type": "native",
             "native_style": 0,
-            "key": "330495577398821_365997060515339"
+            "key": "330495577398821_330846077363771"
           }
         ]
       ]
@@ -99,8 +99,10 @@
     {
       "slot_id": "00003",
       "slot_name": "bubble_start_ad",
-      "open_status": true,
+      "open_status": false,
       "is_auload": false,
+      "frequency": 1,
+      "daily_times": 1,
       "show_priority": 1,
       "cache_size": 1,
       "load_num": 1,
@@ -121,7 +123,7 @@
             "ad_clcik_enable": 3,
             "type": "native",
             "native_style": 15,
-            "key": "330495577398821_330846077363771"
+            "key": "330495577398821_365997060515339"
           }
         ]
       ]
@@ -131,8 +133,6 @@
       "slot_name": "bubble_result_full_ad",
       "open_status": true,
       "is_auload": false,
-      "frequency": 1,
-      "daily_times": 3,
       "show_priority": 2,
       "cache_size": 1,
       "load_num": 1,
@@ -156,6 +156,26 @@
       ]
     },
     {
+      "slot_id": "00005",
+      "slot_name": "bubble_start_full_ad",
+      "open_status": false,
+      "is_auload": false,
+      "frequency": 1,
+      "daily_times": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "type": "fullscreen",
+            "key": "ca-app-pub-9050577983994584/1531521791"
+          }
+        ]
+      ]
+    },
+    {
       "slot_id": "00201",
       "slot_name": "bubble_clean_ad",
       "open_status": true,
@@ -165,7 +185,7 @@
       "cache_size": 1,
       "load_num": 1,
       "flow": [
-        [
+[
           {
             "platform": "admob",
             "open_status": true,
@@ -196,73 +216,7 @@
             "key": "330495577398821_330877477360631"
           }
         ]
-
-      ]
-    },
-    {
-      "slot_id": "00501",
-      "slot_name": "bubble_notification_ad",
-      "open_status": true,
-      "is_auload": false,
-      "show_priority": 2,
-      "cache_size": 1,
-      "load_num": 1,
-      "flow": [
-        [
-          {
-            "platform": "admob",
-            "open_status": true,
-            "is_no_cache": false,
-            "type": "native",
-            "admob_type": 3,
-            "native_style": 21,
-            "key": "ca-app-pub-9050577983994584/4161442847"
-          }
-        ],
-        [
-          {
-            "platform": "facebook",
-            "open_status": true,
-            "type": "native",
-            "ad_clcik_enable":3,
-            "native_style": 21,
-            "key": "330495577398821_330877477360631"
-          }
-        ]
-
-      ]
-    },
-    {
-      "slot_id": "00701",
-      "slot_name": "bubble_locker_ad",
-      "open_status": true,
-      "is_auload": false,
-      "is_outside_ad": false,
-      "show_priority": 2,
-      "cache_size": 1,
-      "load_num": 1,
-      "flow": [
-        [
-          {
-            "platform": "admob",
-            "open_status": true,
-            "is_no_cache": false,
-            "type": "native",
-            "admob_type": 3,
-            "native_style": 21,
-            "key": "ca-app-pub-9050577983994584/1337389832"
-          }
-        ],
-        [
-          {
-            "platform": "facebook",
-            "open_status": true,
-            "ad_clcik_enable": 3,
-            "type": "native",
-            "native_style": 21,
-            "key": "330495577398821_340037139777998"
-          }
-        ]
+       
       ]
     }
   ]

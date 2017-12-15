@@ -1,0 +1,82 @@
+{
+    "version": "2",
+    "hide_app_icon": true,
+
+    "push": {
+        "push_max_times": 2,
+        "push_new_user_day": 3,
+        "push_new_user_day_max_times": 3,
+        "push_old_user_day_max_times": 7,
+        "app_exit_toast":{
+            "priority":0,
+            "push_day_max_times": 20
+        },
+        "new_install_app_notice":{
+            "priority":0
+        },
+        "privacy_clean_notice":{
+            "priority":2,
+            "push_day_max_times": 1
+        },
+        "memory_clean_notice":{
+            "threshold":500,
+            "priority":1,
+            "push_day_max_times": 2
+        },
+        "ram_accelerate_percent":{
+            "threshold":60,
+            "priority":0,
+            "push_day_max_times": 2
+        },
+        "cpu_cooler":{
+            "threshold":50,
+            "priority":0,
+            "push_day_max_times": 2
+        },
+        "battery_saver":{
+            "threshold":40,
+            "priority":1,
+            "push_day_max_times": 2
+        },
+        "junk_clean":{
+            "threshold":12,
+            "priority":2,
+            "push_day_max_times": 1
+        },
+        "scan":{
+            "threshold":24,
+            "priority":0,
+            "push_day_max_times": 1
+        }
+    },
+
+    "update": {
+        "version": "1",
+        "coins": 1,
+        "segment_id": "0",
+        "version_code": 1,
+        "version_name": "1.0.1",
+        "title": {
+            "en": "New Version is here!",
+            "th":""
+        },
+        "message": {
+            "en": "Bubble Security is updating###",
+            "th":""
+        },
+        "activity_title": "New Version is here!",
+        "activity_message": "Bubble Security ### have released.",
+        "cancel_update": true,
+        "download_url": "http://www.gl-man.com/app/bs-update.apk",
+        "gp_link": "",
+        "file_size": "2913586",
+        "file_md5": "4f143d0d216a72db30802e090688a796",
+        "activity_current_version_max_times":30,
+        "activity_day_max_times":3,
+        "notify_times_day_max": 1,
+        "service_request_time":720,
+        "service_notic_time":720,
+        "notic_day_max_time":3
+
+    }
+}

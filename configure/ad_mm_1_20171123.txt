@@ -1,0 +1,232 @@
+{
+  "version": "201711251030",
+  "version_desc": "mm",
+  "open_status": true,
+  "refresh_frequence": 360000,
+  "refresh_time_limite": 300000,
+  "segment_id": 1,
+  "refresh_url": "",
+  "gift_url": "",
+  "reprot_config": {
+    "report_status": true,
+    "report_time": 300000
+  },
+  "SDK_Config": {
+    "facebook_status": true,
+    "admob_status": true,
+    "facebook_lifetime": 1800000
+  },
+  "InterAd_Config": {
+    "enable": true,
+    "interval_time": 60000,
+    "max_show_time": 3,
+    "inter_flow": [
+    ]
+  },
+  "ADSlot_Config": [
+    {
+      "slot_id": "21002",
+      "slot_name": "result_ad",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "is_no_cache": false,
+            "ad_clcik_enable": 2,
+            "type": "native",
+            "native_style": 0,
+            "key": "503488496696061_505640239814220"
+          }
+        ],
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "banner",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-8654807584382715/6367968661"
+          }
+        ]
+      ]
+    },
+
+    {
+      "slot_id": "21007",
+      "slot_name": "full_screen_search_ad",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "is_no_cache": false,
+            "ad_clcik_enable": 3,
+            "type": "fullscreen",
+            "native_style": 15,
+            "key": "503488496696061_505640666480844"
+          }
+        ],
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "type": "fullscreen",
+            "key": "ca-app-pub-8654807584382715/3737935897"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "21008",
+      "slot_name": "full_screen_playing_ad",
+      "open_status": true,
+      "is_auload": false,
+      "frequency": 1,
+      "daily_times": 3,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "type": "fullscreen",
+            "key": "503488496696061_505640553147522"
+          }
+        ],
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "type": "fullscreen",
+            "key": "ca-app-pub-8654807584382715/2233282536"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "21001",
+      "slot_name": "bubble_locker_ad",
+      "open_status": true,
+      "is_auload": false,
+      "is_outside_ad": true,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        
+
+      ]
+    },
+    {
+      "slot_id": "21003",
+      "slot_name": "my_songs_ad",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "ad_clcik_enable": 1,
+            "type": "native",
+            "native_style": 21,
+            "key": "503488496696061_505308709847373"
+          }
+        ],
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "banner",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-8654807584382715/2707747646"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "21004",
+      "slot_name": "genres_ad",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "ad_clcik_enable": 1,
+            "type": "native",
+            "native_style": 21,
+            "key": "503488496696061_505640413147536"
+          }
+        ],
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "banner",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-8654807584382715/7840832439"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "21005",
+      "slot_name": "rank_ad",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "ad_clcik_enable": 1,
+            "type": "native",
+            "native_style": 21,
+            "key": "503488496696061_505640483147529"
+          }
+        ],
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "banner",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-8654807584382715/3163220824"
+          }
+        ]
+      ]
+    }
+
+  ]
+}

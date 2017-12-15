@@ -1,0 +1,48 @@
+{
+    "code": 0,
+    "msg": "",
+    "data": {
+        "analytics_level": 1,
+        "blacklist": [
+            "com.lionmobi.powerclean",
+            "com.lionmobi.battery",
+            "com.qihoo.security",
+            "com.qihoo.security.lite",
+            "com.qihoo.batterysaverplus",
+            "com.cleanmaster.mguard",
+            "com.cmcm.lite",
+            "com.gto.zero.zboost",
+            "com.cmsecurity.lite",
+            "com.dianxinos.dxbs",
+            "com.dianxinos.optimizer.duplay",
+            "com.duapps.cleaner",
+            "com.turboc.cleaner",
+            "com.hermes.superb.booster"
+        ],
+        "locker": {
+            "ad_needed": 1,
+            "auto_enforce_on_time": 90000,
+            "background_url": "",
+            "block_home": 1,
+            "daily_count_limit": 100,
+            "enable": 0,
+            "enforce_count": 1,
+            "first_auto_enforce_on_time": 36000000,
+            "load_ad_interval": 30000,
+            "preload_ad_interval": 60000,
+            "show_ad_interval": 30000,
+            "show_icon": 0,
+            "show_title": 0,
+            "time_interval_limit": 1000,
+            "title": "Super Cleaner Pro",
+            "start_time": 1,
+            "end_time": 6
+        },
+        "priorityList": [
+            "super.clean.apps.go.boost.power.cm"
+        ],
+        "promote": {},
+        "segment_id": "0302000",
+        "version": "201711171130"
+    }
+}

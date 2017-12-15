@@ -1,0 +1,188 @@
+{
+  "version": "201712021942",
+  "version_desc": "description",
+  "open_status": true,
+  "refresh_frequence": 360000,
+  "refresh_time_limite": 300000,
+  "segment_id": 100,
+  "refresh_url": "http://www.baidu.com",
+  "gift_url": "http://download.wifimaster.mobi/swiftwifi/2016/tap.gif",
+  "reprot_config": {
+    "report_status": true,
+    "report_time": 300000
+  },
+  "SDK_Config": {
+    "facebook_status": true,
+    "admob_status": true,
+    "facebook_lifetime": 9000000
+  },
+  "InterAd_Config": {
+    "enable": true,
+    "interval_time": 3600000,
+    "max_show_time": 5,
+    "inter_flow": [
+{
+        "inter_platform": "admob",
+        "inter_wight": 100,
+        "inter_slotId": "ca-app-pub-9050577983994584/2210047445",
+        "inter_slotName": "slotName_admob"
+      }
+
+    ]
+  },
+  "ADSlot_Config": [
+    {
+      "slot_id": "00001",
+      "slot_name": "bubble_result_ad",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "native_express",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-9050577983994584/6253701751"
+          }
+        ],
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "is_no_cache": false,
+            "ad_clcik_enable": 3,
+            "type": "native",
+            "native_style": 0,
+            "key": "330495577398821_330867387361640"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "00002",
+      "slot_name": "bubble_gift_ad",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "native_express",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-9050577983994584/1017528233"
+          }
+        ],
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "is_no_cache": false,
+            "ad_clcik_enable": 1,
+            "type": "native",
+            "native_style": 0,
+            "key": "330495577398821_330846077363771"
+          }
+        ]
+
+      ]
+    },
+    {
+      "slot_id": "00003",
+      "slot_name": "bubble_start_ad",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "is_no_cache": false,
+            "ad_clcik_enable": 1,
+            "type": "native",
+            "native_style": 15,
+            "key": "330495577398821_365997060515339"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "00004",
+      "slot_name": "bubble_result_full_ad",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 2,
+      "request_chance":100,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "type": "fullscreen",
+            "key": "ca-app-pub-9050577983994584/1531521791"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "00005",
+      "slot_name": "bubble_start_full_ad",
+      "open_status": true,
+      "is_auload": false,
+      "frequency": 1,
+      "daily_times": 3,
+      "show_priority": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "type": "fullscreen",
+            "key": "ca-app-pub-9050577983994584/1531521791"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "00201",
+      "slot_name": "bubble_clean_ad",
+      "open_status": true,
+      "is_auload": false,
+      "is_outside_ad":true,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "native_express",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-9050577983994584/8604374217"
+          }
+        ]
+      ]
+    }
+  ]
+}
