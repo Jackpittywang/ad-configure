@@ -1,5 +1,5 @@
 {
-  "version": "201712121630",
+  "version": "201712181530",
   "version_desc": "20171104nomal3",
   "open_status": true,
   "refresh_frequence": 360000,
@@ -177,10 +177,10 @@
             "platform": "admob",
             "open_status": true,
             "is_no_cache": false,
-            "type": "native",
-            "admob_type": 3,
-            "native_style": 19,
-            "key": "ca-app-pub-9050577983994584/7242067609"
+            "type": "native_express",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-9050577983994584/8604374217"
           }
         ],
         [
