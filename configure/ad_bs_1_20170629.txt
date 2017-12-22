@@ -1,5 +1,5 @@
 {
-  "version": "201712021942",
+  "version": "201712221542",
   "version_desc": "description",
   "open_status": true,
   "refresh_frequence": 360000,
@@ -19,7 +19,7 @@
   "InterAd_Config": {
     "enable": true,
     "interval_time": 3600000,
-    "max_show_time": 5,
+    "max_show_time": 10,
     "inter_flow": [
 {
         "inter_platform": "admob",

@@ -1,5 +1,5 @@
 {
-    "version": "201712191730",
+    "version": "201712221530",
     "version_desc": "20171104nomal3",
     "open_status": true,
     "refresh_frequence": 360000,
@@ -19,17 +19,17 @@
     "InterAd_Config": {
         "enable": true,
         "interval_time": 3600000,
-        "max_show_time": 5,
+        "max_show_time": 10,
         "inter_flow": [
             {
                 "inter_platform": "admob",
-                "inter_wight": 50,
+                "inter_wight": 80,
                 "inter_slotId": "ca-app-pub-9050577983994584/2210047445",
                 "inter_slotName": "slotName_admob"
             },
             {
                 "inter_platform": "admob",
-                "inter_wight": 50,
+                "inter_wight": 20,
                 "inter_slotId": "ca-app-pub-9050577983994584/6997186292",
                 "inter_slotName": "slotName_admob_2"
             }
