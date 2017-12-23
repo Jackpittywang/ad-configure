@@ -114,17 +114,6 @@
       "flow": [
         [
           {
-            "platform": "facebook",
-            "open_status": true,
-            "is_no_cache": false,
-            "ad_clcik_enable": 3,
-            "type": "native",
-            "native_style": 15,
-            "key": "517279085315806_517413428635705"
-          }
-        ],
-        [
-          {
             "platform": "admob",
             "open_status": true,
             "type": "fullscreen",
@@ -144,14 +133,7 @@
       "cache_size": 1,
       "load_num": 1,
       "flow": [
-        [
-          {
-            "platform": "facebook",
-            "open_status": true,
-            "type": "fullscreen",
-            "key": "517279085315806_517413301969051"
-          }
-        ],
+      
         [
           {
             "platform": "admob",
