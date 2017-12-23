@@ -1,186 +1,247 @@
 {
-    "version": "201712121930",
-    "version_desc": "description scp",
-    "open_status": true,
-    "refresh_frequence": 360000,
-    "refresh_time_limite": 300000,
-    "segment_id": 1,
-    "refresh_url": "",
-    "gift_url": "",
-    "reprot_config": {
-        "report_status": true,
-        "report_time": 300000
-    },
-    "SDK_Config": {
-        "facebook_status": true,
-        "admob_status": true,
-        "facebook_lifetime": 1800000
-    },
-    "InterAd_Config": {
-        "enable": true,
-        "interval_time": 7200000,
-        "max_show_time": 2,
-        "inter_flow": [
-            {
-                "inter_platform": "admob",
-                "inter_wight": 100,
-                "inter_slotId": "ca-app-pub-4756356037160480/9258493913",
-                "inter_slotName": "scp_interad_admob"
-            }
-        ]
-    },
-    "ADSlot_Config": [
-        {
-            "slot_id": "30001",
-            "slot_name": "scp_result",
-            "open_status": true,
-            "is_auload": false,
-            "show_priority": 1,
-            "cache_size": 1,
-            "load_num": 1,
-            "flow": [
-                [
-                    {
-                        "platform": "admob",
-                        "open_status": true,
-                        "is_no_cache": false,
-                        "type": "banner",
-                        "admob_type": 0,
-                        "native_style": 0,
-                        "key": "ca-app-pub-4756356037160480/4267566271"
-                    }
-                ]
-            ]
-        },
-        {
-            "slot_id": "30002",
-            "slot_name": "scp_exit",
-            "open_status": true,
-            "is_auload": false,
-            "show_priority": 1,
-            "cache_size": 1,
-            "load_num": 1,
-            "flow": [
-                
-                [
-                    {
-                        "platform": "admob",
-                        "open_status": true,
-                        "is_no_cache": false,
-                        "type": "banner",
-                        "admob_type": 0,
-                        "native_style": 0,
-                        "key": "ca-app-pub-4756356037160480/4811982445"
-                    }
-                ]
-            ]
-        },
-        {
-            "slot_id": "30003",
-            "slot_name": "scp_start",
-            "open_status": true,
-            "is_auload": false,
-            "show_priority": 1,
-            "cache_size": 1,
-            "load_num": 1,
-            "flow": []
-        },
-        {
-            "slot_id": "30004",
-            "slot_name": "scp_result_back",
-            "open_status": true,
-            "is_auload": false,
-            "frequency": 1,
-            "daily_times": 3,
-            "show_priority": 2,
-            "cache_size": 1,
-            "load_num": 1,
-            "flow": [
-                [
-                    {
-                        "platform": "admob",
-                        "open_status": true,
-                        "type": "fullscreen",
-                        "key": "ca-app-pub-4756356037160480/6329201956"
-                    }
-                ],
-                [
-                    {
-                        "platform": "admob",
-                        "open_status": true,
-                        "type": "fullscreen",
-                        "key": "ca-app-pub-4756356037160480/6329201956"
-                    }
-                ]
-            ]
-        },
-        {
-            "slot_id": "00201",
-            "slot_name": "scp_clean",
-            "open_status": true,
-            "is_auload": false,
-            "is_outside_ad": true,
-            "show_priority": 2,
-            "cache_size": 1,
-            "load_num": 1,
-            "flow": [
-                [
-                    {
-                        "platform": "admob",
-                        "open_status": true,
-                        "is_no_cache": false,
-                        "type": "banner",
-                        "admob_type": 0,
-                        "native_style": 0,
-                        "key": "ca-app-pub-4756356037160480/1447452504"
-                    }
-                ]
-            ]
-        },
-        {
-            "slot_id": "00501",
-            "slot_name": "scp_notification",
-            "open_status": true,
-            "is_auload": false,
-            "is_outside_ad": true,
-            "show_priority": 2,
-            "cache_size": 1,
-            "load_num": 1,
-            "flow": [
-                [
-                    {
-                        "platform": "admob",
-                        "open_status": true,
-                        "is_no_cache": false,
-                        "type": "banner",
-                        "admob_type": 0,
-                        "native_style": 0,
-                        "key": "ca-app-pub-4756356037160480/6470540861"
-                    }
-                ],
-                [
-                    {
-                        "platform": "admob",
-                        "open_status": true,
-                        "is_no_cache": false,
-                        "type": "banner",
-                        "admob_type": 0,
-                        "native_style": 0,
-                        "key": "ca-app-pub-4756356037160480/6470540861"
-                    }
-                ]
-            ]
-        },
-        {
-            "slot_id": "00701",
-            "slot_name": "scp_locker",
-            "open_status": true,
-            "is_auload": false,
-            "is_outside_ad": true,
-            "show_priority": 2,
-            "cache_size": 1,
-            "load_num": 1,
-            "flow": []
-        }
+  "version": "201712221930",
+  "version_desc": "description",
+  "open_status": true,
+  "refresh_frequence": 360000,
+  "refresh_time_limite": 300000,
+  "segment_id": 1,
+  "refresh_url": "",
+  "gift_url": "",
+  "reprot_config": {
+    "report_status": true,
+    "report_time": 300000
+  },
+  "SDK_Config": {
+    "facebook_status": true,
+    "admob_status": true,
+    "facebook_lifetime": 1800000
+  },
+  "InterAd_Config": {
+    "enable": true,
+    "interval_time": 3600000,
+    "max_show_time": 5,
+    "inter_flow": [
+      {
+        "inter_platform": "admob",
+        "inter_wight": 50,
+        "inter_slotId": "ca-app-pub-4756356037160480/9258493913",
+        "inter_slotName": "scp_interad_admob1"
+      },
+      {
+        "inter_platform": "admob",
+        "inter_wight": 50,
+        "inter_slotId": "ca-app-pub-4756356037160480/9205666791",
+        "inter_slotName": "scp_interad_admob2"
+      }
+
     ]
+  },
+  "ADSlot_Config": [
+    {
+      "slot_id": "30001",
+      "slot_name": "scp_result",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "is_no_cache": false,
+            "ad_clcik_enable": 3,
+            "type": "native",
+            "native_style": 0,
+            "key": "517279085315806_517280351982346"
+          }
+        ],
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "banner",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-4756356037160480/4267566271"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "30002",
+      "slot_name": "scp_exit",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "is_no_cache": false,
+            "ad_clcik_enable": 3,
+            "type": "native",
+            "native_style": 0,
+            "key": "517279085315806_517413118635736"
+          }
+        ],
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "banner",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-4756356037160480/4811982445"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "30003",
+      "slot_name": "scp_start",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "is_no_cache": false,
+            "ad_clcik_enable": 3,
+            "type": "native",
+            "native_style": 15,
+            "key": "517279085315806_517413428635705"
+          }
+        ],
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "type": "fullscreen",
+            "key": "ca-app-pub-4756356037160480/7590312736"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "30004",
+      "slot_name": "scp_result_back",
+      "open_status": true,
+      "is_auload": false,
+      "frequency": 1,
+      "daily_times": 3,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "type": "fullscreen",
+            "key": "517279085315806_517413301969051"
+          }
+        ],
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "type": "fullscreen",
+            "key": "ca-app-pub-4756356037160480/6329201956"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "00201",
+      "slot_name": "scp_clean",
+      "open_status": true,
+      "is_auload": false,
+      "is_outside_ad":true,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "type": "native",
+            "ad_clcik_enable":3,
+            "native_style": 19,
+            "key": "517279085315806_517413591969022"
+          }
+        ],
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "banner",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-4756356037160480/1447452504"
+          }
+        ]
+
+      ]
+    },
+    {
+      "slot_id": "00501",
+      "slot_name": "scp_notification",
+      "open_status": true,
+      "is_auload": false,
+      "is_outside_ad":true,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "type": "native",
+            "ad_clcik_enable":3,
+            "native_style": 21,
+            "key": "517279085315806_518672985176416"
+          }
+        ],
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "banner",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-4756356037160480/6470540861"
+          }
+        ]
+
+      ]
+    }
+      ,
+        {
+          "slot_id": "00701",
+          "slot_name": "scp_locker",
+          "open_status": true,
+          "is_auload": false,
+          "is_outside_ad": true,
+          "show_priority": 2,
+          "cache_size": 1,
+          "load_num": 1,
+          "flow": [
+          ]
+        }
+  ]
 }
