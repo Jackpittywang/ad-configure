@@ -19,7 +19,7 @@
     "InterAd_Config": {
         "enable": true,
         "interval_time": 3600000,
-        "max_show_time": 5,
+        "max_show_time": 10,
         "inter_flow": [
             {
                 "inter_platform": "admob",
@@ -246,7 +246,17 @@
             "cache_size": 1,
             "load_num": 1,
             "flow": [
-                []
+                [
+                    {
+                        "platform": "admob",
+                        "open_status": true,
+                        "is_no_cache": false,
+                        "type": "native",
+                        "admob_type": 3,
+                        "native_style": 21,
+                        "key": "ca-app-pub-9050577983994584/1337389832"
+                    }
+                ]
             ]
         }
     ]
