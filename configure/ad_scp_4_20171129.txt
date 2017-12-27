@@ -1,5 +1,5 @@
 {
-    "version": "201712221930",
+    "version": "201712271630",
     "version_desc": "description",
     "open_status": true,
     "refresh_frequence": 360000,
@@ -111,7 +111,6 @@
             "cache_size": 1,
             "load_num": 1,
             "flow": [
-              
                 [
                     {
                         "platform": "admob",
@@ -133,13 +132,32 @@
             "cache_size": 1,
             "load_num": 1,
             "flow": [
-               
                 [
                     {
                         "platform": "admob",
                         "open_status": true,
                         "type": "fullscreen",
                         "key": "ca-app-pub-4756356037160480/6329201956"
+                    }
+                ]
+            ]
+        },
+        {
+            "slot_id": "30005",
+            "slot_name": "scp_install",
+            "open_status": true,
+            "is_auload": false,
+            "show_priority": 2,
+            "cache_size": 1,
+            "load_num": 1,
+            "flow": [
+                [
+                    {
+                        "platform": "facebook",
+                        "open_status": true,
+                        "type": "native",
+                        "native_style": 0,
+                        "key": "517279085315806_526476347729413"
                     }
                 ]
             ]
@@ -219,9 +237,7 @@
             "show_priority": 2,
             "cache_size": 1,
             "load_num": 1,
-            "flow": [
-               
-            ]
+            "flow": []
         }
     ]
 }
