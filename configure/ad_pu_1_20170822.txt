@@ -1,0 +1,178 @@
+{
+  "version": "201712281430",
+  "version_desc": "parallelu",
+  "open_status": true,
+  "refresh_frequence": 360000,
+  "refresh_time_limite": 300000,
+  "segment_id": 1,
+  "refresh_url": "",
+  "gift_url": "",
+  "reprot_config": {
+    "report_status": true,
+    "report_time": 300000
+  },
+  "SDK_Config": {
+    "facebook_status": true,
+    "admob_status": true,
+    "facebook_lifetime": 1800000
+  },
+  "InterAd_Config": {
+    "enable": true,
+    "interval_time": 1800000,
+    "max_show_time": 10,
+    "inter_flow": [
+      {
+        "inter_platform": "admob",
+        "inter_wight": 100,
+        "inter_slotId": "ca-app-pub-5838971070306231/9192946085",
+        "inter_slotName": "slotName_admob"
+      },
+      {
+        "inter_platform": "admob",
+        "inter_wight": 100,
+        "inter_slotId": "ca-app-pub-5838971070306231/8107412351",
+        "inter_slotName": "slotName_admob2"
+      }
+    ]
+  },
+  "ADSlot_Config": [
+    {
+      "slot_id": "40001",
+      "slot_name": "parallel_home",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "banner",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-5838971070306231/2105164680"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "40002",
+      "slot_name": "parallel_loading",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "banner",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-5838971070306231/2651959592"
+          }
+        ]
+      ]
+    },
+
+    {
+      "slot_id": "40003",
+      "slot_name": "parallel_loading_full",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 1,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "type": "fullscreen",
+            "key": "ca-app-pub-5838971070306231/6990605953"
+          }
+        ]
+      ]
+    },
+
+    {
+      "slot_id": "40004",
+      "slot_name": "locker_head_ad",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "banner",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-5838971070306231/5032325320"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "00201",
+      "slot_name": "clean_ad",
+      "open_status": true,
+      "is_auload": false,
+      "is_outside_ad": true,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+          {
+            "platform": "admob",
+            "open_status": true,
+            "is_no_cache": false,
+            "type": "banner",
+            "admob_type": 0,
+            "native_style": 0,
+            "key": "ca-app-pub-5838971070306231/3198754504"
+          }
+        ]
+      ]
+    },
+    {
+      "slot_id": "00501",
+      "slot_name": "notification_ad",
+      "open_status": true,
+      "is_auload": false,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+
+        ]
+      ]
+    },
+    {
+      "slot_id": "00701",
+      "slot_name": "locker_ad",
+      "open_status": true,
+      "is_auload": false,
+      "is_outside_ad": false,
+      "show_priority": 2,
+      "cache_size": 1,
+      "load_num": 1,
+      "flow": [
+        [
+        ]
+      ]
+    }
+  ]
+}

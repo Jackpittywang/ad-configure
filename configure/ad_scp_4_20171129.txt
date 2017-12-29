@@ -1,5 +1,5 @@
 {
-    "version": "201712271630",
+    "version": "201712281830",
     "version_desc": "description",
     "open_status": true,
     "refresh_frequence": 360000,
@@ -50,7 +50,7 @@
                         "platform": "facebook",
                         "open_status": true,
                         "is_no_cache": false,
-                        "ad_clcik_enable": 3,
+                        "ad_clcik_enable": 2,
                         "type": "native",
                         "native_style": 0,
                         "key": "517279085315806_517280351982346"
@@ -155,6 +155,7 @@
                     {
                         "platform": "facebook",
                         "open_status": true,
+                        "ad_clcik_enable": 3,
                         "type": "native",
                         "native_style": 0,
                         "key": "517279085315806_526476347729413"
@@ -176,8 +177,18 @@
                     {
                         "platform": "facebook",
                         "open_status": true,
+                        "weight": 80,
                         "type": "native",
                         "ad_clcik_enable": 3,
+                        "native_style": 19,
+                        "key": "517279085315806_517413591969022"
+                    },
+                    {
+                        "platform": "facebook",
+                        "open_status": true,
+                        "weight": 20,
+                        "type": "native",
+                        "ad_clcik_enable": 2,
                         "native_style": 19,
                         "key": "517279085315806_517413591969022"
                     }
