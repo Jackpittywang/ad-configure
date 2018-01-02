@@ -19,7 +19,7 @@
     "InterAd_Config": {
         "enable": true,
         "interval_time": 3600000,
-        "max_show_time": 5,
+        "max_show_time": 10,
         "inter_flow": [
             {
                 "inter_platform": "admob",
@@ -50,7 +50,18 @@
                         "platform": "facebook",
                         "open_status": true,
                         "is_no_cache": false,
+                        "ad_clcik_enable": 1,
+                        "weight": 30,
+                        "type": "native",
+                        "native_style": 0,
+                        "key": "517279085315806_517280351982346"
+                    },
+                    {
+                        "platform": "facebook",
+                        "open_status": true,
+                        "is_no_cache": false,
                         "ad_clcik_enable": 2,
+                        "weight": 70,
                         "type": "native",
                         "native_style": 0,
                         "key": "517279085315806_517280351982346"
@@ -177,7 +188,7 @@
                     {
                         "platform": "facebook",
                         "open_status": true,
-                        "weight": 80,
+                        "weight": 50,
                         "type": "native",
                         "ad_clcik_enable": 3,
                         "native_style": 19,
@@ -186,7 +197,7 @@
                     {
                         "platform": "facebook",
                         "open_status": true,
-                        "weight": 20,
+                        "weight": 50,
                         "type": "native",
                         "ad_clcik_enable": 2,
                         "native_style": 19,

@@ -50,7 +50,7 @@
                         "platform": "facebook",
                         "open_status": true,
                         "is_no_cache": false,
-                        "ad_clcik_enable": 3,
+                        "ad_clcik_enable": 2,
                         "weight": 50,
                         "type": "native",
                         "native_style": 0,
@@ -167,7 +167,7 @@
                     {
                         "platform": "facebook",
                         "open_status": true,
-                        "weight": 80,
+                        "weight": 50,
                         "type": "native",
                         "ad_clcik_enable": 3,
                         "native_style": 19,
@@ -176,7 +176,7 @@
                     {
                         "platform": "facebook",
                         "open_status": true,
-                        "weight": 20,
+                        "weight": 50,
                         "type": "native",
                         "ad_clcik_enable": 2,
                         "native_style": 19,
