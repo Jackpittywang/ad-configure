@@ -18,8 +18,8 @@
     },
     "InterAd_Config": {
         "enable": true,
-        "interval_time": 3600000,
-        "max_show_time": 10,
+        "interval_time": 1800000,
+        "max_show_time": 20,
         "inter_flow": [
             {
                 "inter_platform": "admob",
@@ -50,7 +50,7 @@
                         "platform": "facebook",
                         "open_status": true,
                         "is_no_cache": false,
-                        "ad_clcik_enable": 2,
+                        "ad_clcik_enable": 1,
                         "weight": 50,
                         "type": "native",
                         "native_style": 0,
@@ -94,7 +94,7 @@
                         "platform": "facebook",
                         "open_status": true,
                         "is_no_cache": false,
-                        "ad_clcik_enable": 3,
+                        "ad_clcik_enable": 1,
                         "type": "native",
                         "native_style": 0,
                         "key": "517279085315806_517413118635736"
@@ -102,13 +102,13 @@
                 ],
                 [
                     {
-                        "platform": "admob",
+                        "platform": "facebook",
                         "open_status": true,
                         "is_no_cache": false,
-                        "type": "banner",
-                        "admob_type": 0,
+                        "ad_clcik_enable": 1,
+                        "type": "native",
                         "native_style": 0,
-                        "key": "ca-app-pub-4756356037160480/4811982445"
+                        "key": "517279085315806_517413118635736"
                     }
                 ]
             ]
@@ -122,6 +122,17 @@
             "cache_size": 1,
             "load_num": 1,
             "flow": [
+ [
+          {
+            "platform": "facebook",
+            "open_status": true,
+            "is_no_cache": false,
+            "ad_clcik_enable": 2,
+            "type": "native",
+            "native_style": 15,
+            "key": "517279085315806_517413428635705"
+          }
+        ],
                 [
                     {
                         "platform": "admob",
@@ -169,7 +180,7 @@
                         "open_status": true,
                         "weight": 50,
                         "type": "native",
-                        "ad_clcik_enable": 3,
+                        "ad_clcik_enable": 2,
                         "native_style": 19,
                         "key": "517279085315806_517413591969022"
                     },
@@ -211,7 +222,7 @@
                         "platform": "facebook",
                         "open_status": true,
                         "type": "native",
-                        "ad_clcik_enable": 3,
+                        "ad_clcik_enable": 2,
                         "native_style": 21,
                         "key": "517279085315806_518672985176416"
                     }
@@ -238,7 +249,28 @@
             "show_priority": 2,
             "cache_size": 1,
             "load_num": 1,
-            "flow": []
+            "flow": [
+                [
+                    {
+                        "platform": "facebook",
+                        "open_status": true,
+                        "weight": 50,
+                        "type": "native",
+                        "ad_clcik_enable": 2,
+                        "native_style": 21,
+                        "key": "517279085315806_517413528635695"
+                    },
+                    {
+                        "platform": "facebook",
+                        "open_status": true,
+                        "weight": 50,
+                        "type": "native",
+                        "ad_clcik_enable": 2,
+                        "native_style": 21,
+                        "key": "517279085315806_517413528635695"
+                    }
+                ]
+            ]
         }
     ]
 }
